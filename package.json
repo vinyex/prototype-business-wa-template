@@ -1,0 +1,22 @@
+{
+  "name": "wappin-create-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve --port 5000 src/js/app.js",
+    "build": "vue-cli-service build src/js/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@vue/cli-service": "^4.5.11",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
