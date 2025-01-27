@@ -35,6 +35,7 @@ export default {
   },
   data() {
     return {
+      accessToken: "7b4a219b9884e4bd9239698b8103271ad49ad91a",
       category: "",
       contentComponent: "name-category-language",
       contentListComponent: ["name-category-language", "template-message"],
